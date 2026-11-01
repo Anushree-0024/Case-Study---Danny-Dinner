@@ -198,8 +198,6 @@ These recommendations could help Danny's Diner:
 - Improve customer engagement through personalized offers.
 - Make more informed decisions about the loyalty program.
 
-*These are proposed business opportunities based on the sample dataset, not proven outcomes. Their effectiveness would need to be measured through further analysis and experimentation.*
-
 ##  Reference
 
 This project is based on the original case study created by Danny Ma.
