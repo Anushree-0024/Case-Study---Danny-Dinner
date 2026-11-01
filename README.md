@@ -2,7 +2,7 @@
 
 Analyzing customer purchasing behavior, restaurant sales, and loyalty program performance using SQL.
 
-## 📌 Project Overview
+##  Project Overview
 
 Danny's Diner is a Japanese restaurant that serves three popular dishes: sushi, curry, and ramen. The restaurant has collected customer transaction data but needs to turn it into meaningful insights to better understand purchasing patterns, identify popular menu items, and evaluate its customer loyalty program.
 
@@ -12,7 +12,7 @@ The objective is to analyze customer transactions using SQL and answer key busin
 
 In this case study, I explored relational datasets using MySQL to solve business questions related to customer spending, purchasing patterns, product popularity, and loyalty program performance. I applied SQL concepts to transform raw transaction data into meaningful business insights.
 
-## 🎯 Business Objectives
+##  Business Objectives
 
 - Analyze total customer spending and restaurant visit frequency.
 - Identify the most popular menu items and customer-specific preferences.
@@ -21,7 +21,7 @@ In this case study, I explored relational datasets using MySQL to solve business
 - Create reusable datasets that simplify reporting and further analysis.
 - Explore opportunities to improve customer engagement and loyalty program performance.
 
-## 🗂️ Dataset Description
+##  Dataset Description
 
 The analysis uses three relational tables from the `dannys_diner` database.
 
@@ -37,13 +37,13 @@ The analysis uses three relational tables from the `dannys_diner` database.
 - `sales.customer_id` links to `members.customer_id`.
 - These relationships enable analysis of customer spending, product preferences, and membership activity.
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 
 - **SQL** — Data querying and analysis
 - **MySQL** — Database environment used for query execution
 - **GitHub** — Version control and project documentation
 
-## 🔍 Business Questions
+##  Business Questions
 
 The case study contains 10 core questions and 2 bonus challenges.
 
@@ -76,7 +76,7 @@ The case study contains 10 core questions and 2 bonus challenges.
 - Rank each customer's purchases after they join the loyalty program.
 - Preserve `NULL` ranking values for purchases made before membership.
 
-## 🧠 SQL Concepts Practiced
+##  SQL Concepts Practiced
 
 - `SELECT`, `WHERE`, and `ORDER BY`
 - Aggregate functions: `SUM()`, `COUNT()`, and `MIN()`
@@ -89,7 +89,7 @@ The case study contains 10 core questions and 2 bonus challenges.
 - Window functions such as `RANK()` and `DENSE_RANK()`
 - Business rule implementation through SQL calculations
 
-## 📊 Business Value
+##  Business Value
 
 The analysis is designed to help answer practical business questions, including:
 
@@ -101,7 +101,7 @@ The analysis is designed to help answer practical business questions, including:
 
 These insights can support customer segmentation, personalized promotions, menu planning, and loyalty program decisions.
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```text
 dannys-diner-sql/
@@ -112,7 +112,7 @@ dannys-diner-sql/
 
 *The repository structure may be updated as additional SQL scripts and documentation are added.*
 
-## 📊 Key Findings
+##  Key Findings
 
 Based on the analysis of 15 customer transactions across 3 customers, the following findings were identified:
 
@@ -139,7 +139,7 @@ Based on the analysis of 15 customer transactions across 3 customers, the follow
 - Under the standard loyalty points rules, customers earn double points on Sushi purchases.
 - The promotional loyalty program provides double points on all menu items during the first seven days after membership.
 
-## 💡 Business Recommendations & Actionable Insights
+## Business Recommendations & Actionable Insights
 
 Based on the findings, the following recommendations could help Danny's Diner improve customer engagement, sales, and loyalty program effectiveness.
 
@@ -200,17 +200,16 @@ These recommendations could help Danny's Diner:
 
 *These are proposed business opportunities based on the sample dataset, not proven outcomes. Their effectiveness would need to be measured through further analysis and experimentation.*
 
-## 📚 Reference
+##  Reference
 
 This project is based on the original case study created by Danny Ma.
 
 - **Case Study:** [Case Study #1 — Danny's Diner](https://8weeksqlchallenge.com/case-study-1/)
 - **Challenge:** [8 Week SQL Challenge](https://8weeksqlchallenge.com/)
-- **Creator:** [Data With Danny](https://www.datawithdanny.com/)
 
 All case study context and dataset descriptions are credited to the original creator. The SQL queries in this repository are maintained as part of my personal learning and portfolio development.
 
 ---
 
-*Part of my journey to strengthen SQL, business analysis, and data-driven problem-solving skills through practical case studies.*
+
 
